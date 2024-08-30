@@ -1,8 +1,11 @@
 <template>
-  <div class="flex justify-between items-center h-16">
-    <div class="flex items-center">
-      <RouterLink to="/" class="text-xl font-bold"> My App </RouterLink>
-    </div>
+  <div class="flex justify-between items-center h-16 text-gray-100">
+     <div class="flex items-center gap-4 mb-4">
+        <div class="bg-[#01dc82] p-1.5 rounded-xl ">
+          <Layers3  class="" />
+        </div>
+        <p class="text-2xl font-medium font-serif">Solum Firme</p>
+      </div>
 
     <div class="flex text-sm gap-4 items-center text-gray-300">
       <router-link to="/" class="hover:text-gray-500">Home</router-link>
@@ -22,6 +25,10 @@
 
 <script setup lang="ts">
 // const logout = 'logout'
+import { Layers3 } from 'lucide-vue-next';
+
+
+
 </script>
 
 <style></style>

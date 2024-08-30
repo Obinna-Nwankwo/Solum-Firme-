@@ -2,7 +2,12 @@
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customTeal: '#003b3e',
+        customGreen: '#01dc82'
+      }
+    },
     container: {
       padding: {
         DEFAULT: '1.5rem',

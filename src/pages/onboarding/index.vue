@@ -4,7 +4,7 @@
       <section
         class="bg-gradient-to-tl from-[#0a4144] from-10% via-[#003b3e] via-30% to-[#064041] to-90% flex-1"
       >
-        <div class="container mx-auto h-full">
+        <div class="container mx-auto h-full mt-4">
           <index />
           <card />
         </div>

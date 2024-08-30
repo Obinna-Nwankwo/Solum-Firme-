@@ -16,11 +16,11 @@
     </div>
 
     <div>
-      <div class="flex items-center gap-4 mb-4">
-        <div class="bg-[#01dc82] p-2 rounded-2xl ">
-          <GraduationCap :size="35" class="text-gray-200 fill-[#0a4144]" />
+      <div class="flex items-center gap-2 mb-4">
+        <div class="bg-[#01dc82] p-1.5 rounded-xl">
+          <Layers3 class="" />
         </div>
-        <p class="text-2xl text-gray-600 font-bold">Constructopia</p>
+        <p class="text-2xl font-medium font-serif">Solum Firme</p>
       </div>
       <div class="space-x-8 grid grid-cols-5">
         <div>
@@ -63,7 +63,7 @@
 </template>
 
 <script setup lang="ts">
-import { GraduationCap } from 'lucide-vue-next'
+import { Layers3 } from 'lucide-vue-next'
 </script>
 
 <style></style>
